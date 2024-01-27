@@ -1,0 +1,43 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    line-height: inherit;
+    background: #ffffff;
+    width: 258px;
+    text-align: left;
+    transition: .3s;
+    box-shadow: 0 0 21px #59667a1a;
+    height: -webkit-fill-available !important;
+}
+
+.logo-wrappe {
+    padding: 12px 30px;
+}
+
+ul.nav.flex-column {
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+}
+
+.field_err {
+    color: #f44336!important;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 0.35em;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.nav-link {
+    color: black !important;
+}
